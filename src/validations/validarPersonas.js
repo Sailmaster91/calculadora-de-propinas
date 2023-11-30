@@ -5,10 +5,10 @@ const validarPersonas = (e) => {
 	const padrePersonas = document.getElementById('padrePersonas');
 
 	if (!regex.test(e.target.value)) {
-		padrePersonas.querySelector('#error').classList.remove('hidden');
+		padrePersonas.querySelector('#error2').classList.remove('hidden');
 		return false;
 	} else {
-		padrePersonas.querySelector('#error').classList.add('hidden');
+		padrePersonas.querySelector('#error2').classList.add('hidden');
 		return true;
 	}
 };
